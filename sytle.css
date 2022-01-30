@@ -3,7 +3,28 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 svg{
-    background-color: wheat;
+    background-color: rgb(83, 149, 211);
+    box-shadow: 0 0 30px;
+    border-radius: 25px;
+}
+
+g{
+    color: #020202
+}
+#tooltip{
+    margin-top: 10px;
+    color: #000000;
+    font-size: 28px;
+}
+.bar{
+    background-color: #000000;
+    border-color: #000000;
+    fill: #5062ffa8;
+}
+
+.bar:hover{
+    fill: #17252A
 }
